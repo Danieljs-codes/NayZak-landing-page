@@ -13,6 +13,9 @@ module.exports = {
         gray: '#C4C4C4',
         accent: '#18181E',
       },
+      fontSize: {
+        xxl: '1.625rem',
+      },
     },
   },
   plugins: [],
