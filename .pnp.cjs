@@ -28,6 +28,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         [null, {\
           "packageLocation": "./",\
           "packageDependencies": [\
+            ["@tailwindcss/forms", "virtual:55befc51f0e0701cf90e8b56d97ca1f870f171f049f0671657fa0219dfc95d03ef8e0731cb50bd1811781a48812a8893343498cdd18cf0567c7a45d533433c4f#npm:0.5.3"],\
             ["autoprefixer", "virtual:55befc51f0e0701cf90e8b56d97ca1f870f171f049f0671657fa0219dfc95d03ef8e0731cb50bd1811781a48812a8893343498cdd18cf0567c7a45d533433c4f#npm:10.4.13"],\
             ["postcss", "npm:8.4.21"],\
             ["tailwindcss", "virtual:55befc51f0e0701cf90e8b56d97ca1f870f171f049f0671657fa0219dfc95d03ef8e0731cb50bd1811781a48812a8893343498cdd18cf0567c7a45d533433c4f#npm:3.2.7"],\
@@ -292,6 +293,29 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@npmcli/move-file", "npm:2.0.1"],\
             ["mkdirp", "npm:1.0.4"],\
             ["rimraf", "npm:3.0.2"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@tailwindcss/forms", [\
+        ["npm:0.5.3", {\
+          "packageLocation": "./.yarn/cache/@tailwindcss-forms-npm-0.5.3-4d75c0dfda-9eddb4dbd0.zip/node_modules/@tailwindcss/forms/",\
+          "packageDependencies": [\
+            ["@tailwindcss/forms", "npm:0.5.3"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:55befc51f0e0701cf90e8b56d97ca1f870f171f049f0671657fa0219dfc95d03ef8e0731cb50bd1811781a48812a8893343498cdd18cf0567c7a45d533433c4f#npm:0.5.3", {\
+          "packageLocation": "./.yarn/__virtual__/@tailwindcss-forms-virtual-5cd22ccec4/0/cache/@tailwindcss-forms-npm-0.5.3-4d75c0dfda-9eddb4dbd0.zip/node_modules/@tailwindcss/forms/",\
+          "packageDependencies": [\
+            ["@tailwindcss/forms", "virtual:55befc51f0e0701cf90e8b56d97ca1f870f171f049f0671657fa0219dfc95d03ef8e0731cb50bd1811781a48812a8893343498cdd18cf0567c7a45d533433c4f#npm:0.5.3"],\
+            ["@types/tailwindcss", null],\
+            ["mini-svg-data-uri", "npm:1.4.4"],\
+            ["tailwindcss", "virtual:55befc51f0e0701cf90e8b56d97ca1f870f171f049f0671657fa0219dfc95d03ef8e0731cb50bd1811781a48812a8893343498cdd18cf0567c7a45d533433c4f#npm:3.2.7"]\
+          ],\
+          "packagePeers": [\
+            "@types/tailwindcss",\
+            "tailwindcss"\
           ],\
           "linkType": "HARD"\
         }]\
@@ -1230,6 +1254,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["mini-svg-data-uri", [\
+        ["npm:1.4.4", {\
+          "packageLocation": "./.yarn/cache/mini-svg-data-uri-npm-1.4.4-929f6f1119-997f1fbd8d.zip/node_modules/mini-svg-data-uri/",\
+          "packageDependencies": [\
+            ["mini-svg-data-uri", "npm:1.4.4"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["minimatch", [\
         ["npm:3.1.2", {\
           "packageLocation": "./.yarn/cache/minimatch-npm-3.1.2-9405269906-c154e56640.zip/node_modules/minimatch/",\
@@ -1377,6 +1410,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",\
           "packageDependencies": [\
             ["nayzak", "workspace:."],\
+            ["@tailwindcss/forms", "virtual:55befc51f0e0701cf90e8b56d97ca1f870f171f049f0671657fa0219dfc95d03ef8e0731cb50bd1811781a48812a8893343498cdd18cf0567c7a45d533433c4f#npm:0.5.3"],\
             ["autoprefixer", "virtual:55befc51f0e0701cf90e8b56d97ca1f870f171f049f0671657fa0219dfc95d03ef8e0731cb50bd1811781a48812a8893343498cdd18cf0567c7a45d533433c4f#npm:10.4.13"],\
             ["postcss", "npm:8.4.21"],\
             ["tailwindcss", "virtual:55befc51f0e0701cf90e8b56d97ca1f870f171f049f0671657fa0219dfc95d03ef8e0731cb50bd1811781a48812a8893343498cdd18cf0567c7a45d533433c4f#npm:3.2.7"],\
